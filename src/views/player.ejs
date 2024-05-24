@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/player.css">
+    <link rel="stylesheet" href="/static/fontawesome-free-6.5.2-web/css/all.css">
+</head>
+<body>
+    <audio controls id="musica">
+    </audio>
+    <div class="div_player">
+        <img src="" alt="foto musica" id="foto_musica">
+        <div class="descrição">
+            <h2 class="nome"></h2>
+            <h2 class="banda"></h2>
+        </div>
+        <input type="range" id="duration" value="0">
+        <div class="botoes">
+            <button id="MusicaAnterior"><i class="fa-solid fa-backward"></i></button>
+            <button id="playPause"><i class="fa-solid fa-play" id="icon_playPause"></i></button>
+            <button id="ProximaMusica"><i class="fa-solid fa-forward"></i></button>
+        </div>
+    </div>
+    <button class="sair"><a href="/" id="logout"><i class="fa-regular fa-circle-xmark"></i></a></button>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/static/js/player.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+body{
+    background-image: url('/static/assets/notes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 630px;
+}
+audio{
+    display: none;
+}
+
+.div_player {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 470px;
+}
+#foto_musica{
+    width: 450px;
+    height: 400px;
+    margin-top: 10px;
+}
+#duration{
+    width: 440px;
+    
+}
+.descrição{
+    display: flex;
+}
+.nome{
+    margin-right: 6px;
+    color: #fff;
+    
+}
+.banda{
+    margin-left: 8px;
+    color: #fff;
+}
+.botoes{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.sair{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 60px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #e02929;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+#MusicaAnterior,#ProximaMusica,#playPause{
+    width: 60px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+}
+#playPause{
+    background-color: rgb(23, 38, 83);
+}

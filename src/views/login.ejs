@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+</head>
+<body>
+    <section>
+        <form action="/inicio" method="post">
+            <main class="titulo">
+                <h2 class="k">K</h2>
+                <h2 class="music">Music</h2>
+                <img src="/static/assets/logo.jpeg" alt="logo kmusic" id="logo">
+            </main>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha">
+            </div>
+            <a href="/criarconta">Não tem uma conta?Clique Aqui!</a>
+            <input type="submit" class="envia" onclick="envia()">
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/static/js/login.js"></script>
+</body>
+</html>

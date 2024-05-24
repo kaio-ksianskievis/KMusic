@@ -1,0 +1,72 @@
+*{font-family: sans-serif;}
+body{
+    background-image: url('/static/assets/imagem_musica.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 624px;
+}
+section{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(235, 235, 244, 0.8);
+    border-radius: 10px;
+    margin-left: 60px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#email,#senha{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-style: normal;
+    color: #4b4b4b;
+}
+div{
+    display:flex;
+    flex-direction: column;
+}
+label{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.envia{
+    width: 180px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background-color: #f5de2c;
+    box-shadow: rgb(5,10,15,0.5);
+    font-size: 14px;
+    cursor: pointer;
+}
+#logo{
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 55px;
+}
+.titulo{
+    display: flex;
+}
+.k{
+    color: #a31f1f;
+}
+.music{
+    color: #eed512;
+}
+.envia:hover{
+    background-color: #fff;
+    
+}

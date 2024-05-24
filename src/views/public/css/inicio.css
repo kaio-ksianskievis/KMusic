@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #000;
+}
+main{
+    background-color: #000;
+    height: 630px;
+}
+.imagem_musicas{
+    width: 160px;
+    height: 160px;
+    margin-top: 20px;
+}
+.div_music{
+    background-color: #000;
+    margin-bottom: 20px;
+    display: flex;
+    
+    
+    
+}
+.linkmusic{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+.linkmusic:hover{
+    text-decoration:underline;
+}
+.divdescript{
+    margin:20px 10px 20px 10px;
+}
+.apresentação{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+}
+.artistamusicas,.saudacao{
+    color: #fff;
+}
+.artistamusicas::before{
+    content: "°";
+}
+.k{
+    color: #a31f1f;
+    margin-left: 15px;
+}
+.music{
+    color: #f2de45;
+    margin-right: 15px;
+}
+.div_logo{
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 140px;
+    width: 140px;
+}
+.sair{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 60px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #e02929;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+}

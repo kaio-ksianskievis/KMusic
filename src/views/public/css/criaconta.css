@@ -1,0 +1,79 @@
+*{font-family: sans-serif;}
+body{
+    background-image: url('/static/assets/imagem_criaconta.jpg');
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 624px;
+}
+section{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(235, 235, 244, 0.8);
+    border-radius: 10px;
+    margin-right: 60px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#email,#senha{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-style: normal;
+    color: #4b4b4b;
+}
+div{
+    display:flex;
+    flex-direction: column;
+}
+label{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.envia{
+    width: 180px;
+    height: 60px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 30px;
+    background-color: #a31f1f;
+    box-shadow: rgb(5,10,15,0.5);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+}
+.k{
+    color: #a31f1f;
+    margin-left: 15px;
+}
+.music{
+    color: #f2de45;
+    margin-right: 15px;
+}
+.envia:hover{
+    background-color: #fff;
+    
+}
+main{
+    margin-left: 10px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
